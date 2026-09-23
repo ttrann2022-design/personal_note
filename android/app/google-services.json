@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1031745214382",
+    "firebase_url": "https://thehelm-9c692-default-rtdb.firebaseio.com",
+    "project_id": "thehelm-9c692",
+    "storage_bucket": "thehelm-9c692.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031745214382:android:08e56601144e029567da3f",
+        "android_client_info": {
+          "package_name": "com.example.personal_note"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-fqiHyHPdD70lvZKagt3OvcHqYO4K5IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031745214382:android:d790c11f5df4e98567da3f",
+        "android_client_info": {
+          "package_name": "com.example.thehelm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-fqiHyHPdD70lvZKagt3OvcHqYO4K5IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031745214382:android:3d2b41c9722c6ef867da3f",
+        "android_client_info": {
+          "package_name": "com.example.thehelm2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-fqiHyHPdD70lvZKagt3OvcHqYO4K5IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
