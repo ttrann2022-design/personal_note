@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📝 Personal Note App
+# Personal Note App
 
 **A cross-platform note-taking application powered by Flutter and Firebase REST APIs.**
 
@@ -53,3 +53,22 @@ Before running the application, ensure your environment has:
 * **[Flutter SDK](https://docs.flutter.dev/get-started/install)** (`^3.0.0` or higher)
 * **[Dart SDK](https://dart.dev/get-dart)** (bundled with Flutter)
 * Chrome (for Web) or an active Android/iOS simulator
+
+##  Setup & Installation Guide
+
+Run the following commands in your terminal to clone, configure, and launch the application:
+
+```bash
+# 1. Clone the project repository and navigate into the directory
+git clone <YOUR_PUBLIC_GITHUB_REPO_URL>
+cd <YOUR_PROJECT_DIRECTORY>
+
+# 2. Fetch and install all project dependencies
+flutter pub get
+
+# 3. Check connected target devices (Chrome, iOS Simulator, or Android Emulator)
+flutter devices
+
+# 4. Launch the application
+flutter run -d chrome    # For Web (Google Chrome)
+# flutter run            # Or run on an active mobile emulator/simulator
