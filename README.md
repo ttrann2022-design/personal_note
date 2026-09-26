@@ -60,8 +60,8 @@ Run the following commands in your terminal to clone, configure, and launch the 
 
 ```bash
 # 1. Clone the project repository and navigate into the directory
-git clone <YOUR_PUBLIC_GITHUB_REPO_URL>
-cd <YOUR_PROJECT_DIRECTORY>
+git clone https://github.com/ttrann2022-design/personal_note.git
+cd personal_note
 
 # 2. Fetch and install all project dependencies
 flutter pub get
