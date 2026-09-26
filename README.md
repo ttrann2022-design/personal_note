@@ -1,20 +1,19 @@
 <div align="center">
 
-#  Personal Note App
+# Personal Note App
 
 **A cross-platform note-taking application powered by Flutter and Firebase REST APIs.**
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://cute-axolotl-6a0bf6.netlify.app/)
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![Material 3](https://img.shields.io/badge/Material_Design-3.0-7986CB?style=for-the-badge)](https://m3.material.io/)
 
 <p align="center">
-  Personal Note App provides private, user-isolated cloud note management. Users can securely register an account, sign in, compose, update, and manage personal notes in real-time, with all data synced to the cloud and preserved across sessions.
+  🌐 <strong>Live Application URL:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
 </p>
 
 </div>
-
 ---
 
 ## Key Features
