@@ -10,7 +10,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
 <p align="center">
-  🌐 <strong>Live Application URL:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
+   <strong>Live Application URL:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
 </p>
 
 </div>
