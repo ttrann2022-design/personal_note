@@ -1,39 +1,51 @@
-Personal Note App
-A cross-platform note-taking application built with Flutter that provides private, user-isolated cloud note management. Users can register an account, sign in securely, create, edit, view, and delete personal notes, with all data synced to the cloud and preserved across sessions.
+<div align="center">
 
-Features
-User Authentication: Email and password registration, login, and secure session handoff using the Firebase Identity Toolkit REST API.
+#  Personal Note App
 
-Per-User Cloud Isolation: Notes are organized in Firestore under each user's unique ID (users/{userId}/notes), preventing data crossover between accounts.
+**A cross-platform note-taking application powered by Flutter and Firebase REST APIs.**
 
-Full CRUD Support:
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Material 3](https://img.shields.io/badge/Material_Design-3.0-7986CB?style=for-the-badge)](https://m3.material.io/)
 
-Create: Add new notes with a custom title and content.
+<p align="center">
+  Personal Note App provides private, user-isolated cloud note management. Users can securely register an account, sign in, compose, update, and manage personal notes in real-time, with all data synced to the cloud and preserved across sessions.
+</p>
 
-Read: Fetch and display real-time persistent notes in a responsive multi-column grid.
+</div>
 
-Update: Edit existing note titles and contents with live updates.
+---
 
-Delete: Remove notes instantly from both the cloud database and the UI.
+## Key Features
 
-Session Persistence & Safety: Logout securely clears active dashboard navigation state and returns the user to the sign-in screen, keeping saved notes intact on Firestore.
+* **Authentication via REST:** Email & password sign-up, login, and secure session handoff powered directly through the Firebase Identity Toolkit REST API.
+* **User Data Isolation:** Notes are organized in Firestore hierarchically under `users/{userId}/notes`, guaranteeing strict data privacy and isolation between users.
+* **Full CRUD Capabilities:**
+  * **Create:** Add new notes with formatted titles, timestamps, and contents.
+  * **Read:** Synchronize and render notes in a responsive adaptive grid.
+  * **Update:** In-place modal editing for modifying existing note titles and bodies.
+  * **Delete:** Instantly purge documents from Firestore and the local view.
+* **Session Persistence & Safety:** Logout safely resets application state and clears navigation history, ensuring private notes are never exposed on shared devices.
 
-Technologies Used
-Framework: Flutter (Material 3)
+---
 
-Language: Dart
+## Tech Stack & Architecture
 
-Backend & Authentication: Firebase Identity Toolkit (REST API)
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend Framework** | Flutter (Material 3) | Cross-platform UI toolkit targeting Web, Desktop, & Mobile |
+| **Language** | Dart | Strong typing, async/await client logic |
+| **Authentication** | Firebase Identity Toolkit REST API | Token generation, account creation, and credential validation |
+| **Database** | Google Cloud Firestore REST API v1 | Document-based remote NoSQL datastore |
+| **Networking** | `http` Package | Direct HTTP methods (`GET`, `POST`, `PATCH`, `DELETE`) with Bearer tokens |
 
-Database: Google Cloud Firestore (REST API v1)
+---
 
-Networking: http package for Dart (JSON serialization and Bearer token authentication)
+## Prerequisites
 
-Prerequisites
-Before running the application, make sure you have installed:
+Before running the application, ensure your environment has:
 
-Flutter SDK (version 3.0 or higher recommended)
-
-Dart SDK (bundled with Flutter)
-
-A target emulator, simulator, or browser (Chrome, Android Studio Emulator, or Xcode Simulator)
+* **[Flutter SDK](https://docs.flutter.dev/get-started/install)** (`^3.0.0` or higher)
+* **[Dart SDK](https://dart.dev/get-dart)** (bundled with Flutter)
+* Chrome (for Web) or an active Android/iOS simulator
