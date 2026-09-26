@@ -1,21 +1,23 @@
 <div align="center">
 
-# Personal Note App
+# 📝 Personal Note App
 
 **A cross-platform note-taking application powered by Flutter and Firebase REST APIs.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://cute-axolotl-6a0bf6.netlify.app/)
-[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
-[![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+<p align="center">
+  <a href="https://cute-axolotl-6a0bf6.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://youtu.be/6gnhxNhPy0c"><img src="https://img.shields.io/badge/Demo_Video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo Video" /></a>
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
 
 <p align="center">
-   <strong>Live Application URL:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
+  <strong>Live Application:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
+  <br />
+   <strong>Video Showcase:</strong> <a href="https://youtu.be/6gnhxNhPy0c">https://youtu.be/6gnhxNhPy0c</a>
 </p>
-        
-<p align="center">
-   <strong>Video showcase:</strong> <a href="https://youtu.be/6gnhxNhPy0c/</a>
-</p>                         
+
 </div>
 ---
 
