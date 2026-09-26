@@ -12,7 +12,10 @@
 <p align="center">
    <strong>Live Application URL:</strong> <a href="https://cute-axolotl-6a0bf6.netlify.app/">https://cute-axolotl-6a0bf6.netlify.app/</a>
 </p>
-
+        
+<p align="center">
+   <strong>Video showcase:</strong> <a href="https://youtu.be/6gnhxNhPy0c"/</a>
+</p>                         
 </div>
 ---
 
